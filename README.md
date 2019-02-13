@@ -5,9 +5,9 @@ First, the "it" player will go around the circle of players calling "duck" until
 Make sure that the command line command for duck_duck_goose has two arguments where the first is of the configuration file (format guidelines below), and the second is a valid name for an output file (also a txt file).
 
 * Configuration file format (.txt - each number marks the start of a new line):
-'''
+```
 line 1: random seed (unsigned integer)
 line 2: number of players in the game (1-indexed)
 line 3: ID of "it" player
 lines 4 to n+3: IDs of each seated player, from player 0 onward
-'''
+```
